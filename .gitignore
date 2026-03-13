@@ -1,0 +1,18 @@
+# Корень проекта: .env здесь имеет приоритет над laravel/.env
+.env
+.env.backup
+.env.production
+.env.*.local
+
+# Локальный .env внутри laravel/ не коммитить (используется корневой)
+laravel/.env
+laravel/.env.backup
+laravel/.env.production
+
+# IDE и ОС
+.idea
+.cursor
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

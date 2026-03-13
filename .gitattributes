@@ -1,0 +1,25 @@
+* text=auto eol=lf
+
+*.md text
+*.mdx text
+*.php text
+*.js text
+*.vue text
+*.json text
+*.yml text
+*.yaml text
+*.xml text
+*.sql text
+*.sh text
+*.bash text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
