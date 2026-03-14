@@ -236,14 +236,14 @@
 ## 13. Чеклист разработки
 
 ### Фаза 1: Инфраструктура и базовая настройка
-- [ ] Настроить Docker-окружение (docker-compose.yml, Dockerfile)
-- [ ] Настроить PostgreSQL, Redis
-- [ ] Настроить Nginx для раздачи статики и проксирования PHP
-- [ ] Настроить Laravel (migrations, seeders, базовая структура)
-- [ ] Настроить Vite + Vue.js 3
-- [ ] Настроить Spatie Laravel Permission (RBAC)
-- [ ] Настроить Spatie Laravel Data (DTO)
-- [ ] Создать базовую систему аутентификации
+- [x] Настроить Docker-окружение (docker-compose.yml, Dockerfile)
+- [x] Настроить PostgreSQL, Redis
+- [x] Настроить Nginx для раздачи статики и проксирования PHP
+- [x] Настроить Laravel (migrations, seeders, базовая структура)
+- [x] Настроить Vite + Vue.js 3
+- [x] Настроить Spatie Laravel Permission (RBAC)
+- [x] Настроить Spatie Laravel Data (DTO)
+- [x] Создать базовую систему аутентификации
 
 ### Фаза 2: RBAC и управление пользователями
 - [ ] Создать модели ролей (Администратор, Владелец сервиса, Разработчик, Тестировщик, Инцидент-менеджер)
