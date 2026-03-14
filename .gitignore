@@ -1,18 +1,24 @@
-# Корень проекта: .env здесь имеет приоритет над laravel/.env
+*.log
+.DS_Store
 .env
 .env.backup
 .env.production
-.env.*.local
-
-# Локальный .env внутри laravel/ не коммитить (используется корневой)
-laravel/.env
-laravel/.env.backup
-laravel/.env.production
-
-# IDE и ОС
-.idea
-.cursor
-*.swp
-*.swo
-.DS_Store
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
 Thumbs.db
